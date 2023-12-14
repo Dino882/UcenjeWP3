@@ -3,7 +3,7 @@ go
 drop database if exists edunovawp3;
 go
 -- ovo je komentar
-create database edunovawp3;
+create database edunovawp3 collate Croatian_CI_AS;
 go
 --drop database edunovawp3;
 --use master
@@ -63,7 +63,7 @@ alter table grupe add foreign key (predavac) references predavaci(sifra);
 alter table clanovi add foreign key (grupa) references grupe(sifra);
 alter table clanovi add foreign key (polaznik) references polaznici(sifra);
 
---promjena
+
 
 
 
