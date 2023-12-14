@@ -63,7 +63,7 @@ alter table grupe add foreign key (predavac) references predavaci(sifra);
 alter table clanovi add foreign key (grupa) references grupe(sifra);
 alter table clanovi add foreign key (polaznik) references polaznici(sifra);
 
-
+--promjena
 
 
 
