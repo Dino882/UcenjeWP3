@@ -8,6 +8,7 @@ sifra int not null primary key identity (1,1),
 naziv varchar(50) not null,
 trajanje int, 
 cijena decimal(18,2),
+vaucer bit
 );
 
 create table grupe(
